@@ -1,0 +1,85 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --white-color: #fff;
+    --accent-color: #4D5AE5;
+    --primary-bg-color: #ffffff;
+    --secondary-bg-color: #2E2F42;
+    --accent-bg-color: #4D5AE5;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-text-color);
+}
+
+
+ul {
+    list-style: none;
+}
+.logo {
+    color: var(--primary-text-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
+
+.logo > span {
+    color: var(--accent-color);
+}
+
+.site-nav a {
+    color: var(--primary-text-color);
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    color: var(--secondary-text-color);
+}
+
+.contacts a:hover,
+.contacts a:focus {
+    color: var(--accent-color);
+}
+
+/* Hero Section */
+
+.hero-title {
+    background-color: var(--secondary-bg-color);
+    color: var(--white-color);
+}
+
+/* Section */
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.section-item {
+    color: var(--primary-text-color);
+}
+
+.section-text {
+    color: var(--secondary-text-color);
+}
+
+/* Footer */
+.footer-page {
+    background-color: var(--secondary-bg-color);
+}
+.footer-page-text {
+    color: var(--white-color);
+}
+
+/* Button */
+
+.button {
+    background-color: var(--accent-bg-color);
+    color: var(--white-color);
+}
